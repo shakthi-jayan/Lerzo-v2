@@ -1,0 +1,8 @@
+{
+  "name": "Lerzo SaaS",
+  "description": "A comprehensive Student Management System with dashboard, student tracking, enquiries, subscription management, and encryption features.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
