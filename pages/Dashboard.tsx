@@ -8,7 +8,6 @@ import { FeeStatus } from '../types';
 import { motion } from 'framer-motion';
 
 const StatCard = ({ title, value, icon: Icon, bgClass, subText }: any) => (
-const StatCard = ({ title, value, icon: Icon, bgClass, subText }: any) => (
   <div className={`p-6 rounded-xl shadow-sm text-white ${bgClass} relative overflow-hidden`}>
     <div className="relative z-10">
       <p className="text-xs font-bold uppercase tracking-wider opacity-90 mb-1">{title}</p>
@@ -274,9 +273,6 @@ export const Dashboard = () => {
                 )) : (
                   <tr><td colSpan={3} className="p-4 text-center text-slate-400">No students yet</td></tr>
                 )}
-                )) : (
-                  <tr><td colSpan={3} className="p-4 text-center text-slate-400">No students yet</td></tr>
-                )}
               </tbody>
             </table>
           </div>
@@ -319,7 +315,7 @@ export const Dashboard = () => {
                   <tr><td colSpan={4} className="p-4 text-center text-slate-400">No enquiries yet</td></tr>
                 )}
                 )) : (
-                  <tr><td colSpan={4} className="p-4 text-center text-slate-400">No enquiries yet</td></tr>
+                <tr><td colSpan={4} className="p-4 text-center text-slate-400">No enquiries yet</td></tr>
                 )}
               </tbody>
             </table>
